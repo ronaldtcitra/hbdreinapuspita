@@ -21,7 +21,7 @@ function typeWriter(text, element, speed = 100) {
 function updateGreeting() {
     const greetingText = document.getElementById('greetingText');
     const messages = [
-        `Selamat Ulang Tahun, ${birthdayPerson}! 🎉`,
+        `Happy Birthday, ${birthdayPerson}! 🎉`,
     ];
     
     let currentIndex = 0;
@@ -130,11 +130,6 @@ function setupCandle() {
         
         // Tampilkan pesan
         alert(`Happy Birthday, ${birthdayPerson}! Love u <3`);
-        
-        // Tampilkan api kembali setelah 5 detik
-        setTimeout(() => {
-            flame.style.display = 'block';
-        }, 5000);
     });
 }
 
