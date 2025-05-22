@@ -129,7 +129,7 @@ function setupCandle() {
         flame.style.display = 'none';
         
         // Tampilkan pesan
-        alert(`Happy Birthday, ${birthdayPerson}! Love u <3`);
+        alert(`Happy Birthday, Sayangg, Love u <3`);
     });
 }
 
