@@ -129,7 +129,7 @@ function setupCandle() {
         flame.style.display = 'none';
         
         // Tampilkan pesan
-        alert(`Selamat ulang tahun, ${birthdayPerson}! Semoga harapanmu menjadi kenyataan!`);
+        alert(`Happy Birthday, ${birthdayPerson}! Love u <3`);
         
         // Tampilkan api kembali setelah 5 detik
         setTimeout(() => {
